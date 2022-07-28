@@ -15,6 +15,7 @@ import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { GetAllEmployeesComponent } from './get-all-employees/get-all-employees.component';
 import { GetAllManagersComponent } from './get-all-managers/get-all-managers.component';
 import { DesignationComponent } from './designation/designation.component';
+import { TestComponent } from './test/test.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { DesignationComponent } from './designation/designation.component';
     AddemploeyeReporterComponent,
     GetAllEmployeesComponent,
     GetAllManagersComponent,
-    DesignationComponent
+    DesignationComponent,
+    TestComponent
   ],
   imports: [
     BrowserModule,
