@@ -16,6 +16,7 @@ import { GetAllEmployeesComponent } from './get-all-employees/get-all-employees.
 import { GetAllManagersComponent } from './get-all-managers/get-all-managers.component';
 import { DesignationComponent } from './designation/designation.component';
 import { TestComponent } from './test/test.component';
+import { DevComponent } from './dev/dev.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { TestComponent } from './test/test.component';
     GetAllEmployeesComponent,
     GetAllManagersComponent,
     DesignationComponent,
-    TestComponent
+    TestComponent,
+    DevComponent
   ],
   imports: [
     BrowserModule,
